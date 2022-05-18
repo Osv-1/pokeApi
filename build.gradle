@@ -1,0 +1,29 @@
+plugins {
+    id 'org.springframework.boot' version '2.6.7'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+    id "io.swagger.core.v3.swagger-gradle-plugin" version "2.2.0"
+}
+
+group = 'com.br.pokeApi'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.h2database:h2:2.1.212'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:3.1.2'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
