@@ -1,4 +1,4 @@
-# PokeApi - Backend <img src = "https://github.com/Osv-1/looqbox-backend-challenge/blob/master/logoPoke.png?raw=true">
+# PokeApi - Backend <img src = "https://github.com/Osv-1/pokeApi/blob/master/logoPoke.png?raw=true)">
 
 ## Objective
 
