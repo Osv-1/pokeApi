@@ -99,11 +99,6 @@ GET /highlight?q=pidge
     GET http://localhost:8080/pokemons?q={name}&sort={sort})
    ```
 
-## Swagger documentation URL
-
-<h3>
- <img  href src=https://github.com/go-swagger/go-swagger/blob/master/docs/favicon-16x16.png?raw=true > <a href="http://localhost:8080/swagger-ui/index.html#/">Swagger Documentation</a> 
-</h3>
 
 ## Useful links
 
